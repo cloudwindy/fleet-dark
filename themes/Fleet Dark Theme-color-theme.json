@@ -3,15 +3,38 @@
 	"type": "dark",
 	"semanticHighlighting": true,
 	"semanticTokenColors": {
-		"enumMember": {
-			"foreground": "#d1d1d1"
+		"*.static": {
+			"italic": true
 		},
-		"variable.constant": {
-			"foreground": "#ebc88d"
+		"comment": "#898989",
+		"keyword": "#82D2CE",
+		"number": "#EBC88D",
+		"boolean": "#82D2CE",
+		"string": "#E394DC",
+		"escapeSequence": "#82D2CE",
+		"regexp": "#82D2CE",
+		"selfKeyword": "#CC7C8A",
+		"variable": "#EFEFEF",
+		"variable.declaration": "#AF9CFF",
+		"variable.constant": "#AF9CFF",
+		"parameter": "#D1D1D1",
+		"function": "#EBC88D",
+		"function.declaration": {
+			"bold": true,
+			"foreground": "#EFEFEF"
 		},
-		"variable.defaultLibrary": {
-			"foreground": "#e5c07b"
-		}
+		"method": "#EBC88D",
+		"method.declaration": {
+			"bold": true
+		},
+		"type": "#87C3FF",
+		"property": "#AF9CFF",
+		"interface": "#87C3FF",
+		"class": "#87C3FF",
+		"enum": "#87C3FF",
+		"struct": "#898989",
+		"valueType": "#ADD1DE",
+		"typeParameter": "#ADD1DE",
 	},
 	"tokenColors": [
 		{
