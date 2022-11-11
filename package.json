@@ -2,6 +2,7 @@
   "name": "fleet-dark",
   "displayName": "Fleet Dark",
   "description": "Intellij Fleet's default dark theme.",
+  "publisher": "cloudwindy",
   "version": "1.0.0",
   "repository": "https://github.com/cloudwindy/fleet-dark",
   "engines": {
